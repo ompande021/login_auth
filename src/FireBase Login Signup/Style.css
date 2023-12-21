@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png");
+    background-size: cover;
+    background-position: 50%;
+
+}
+.main1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616_1280.jpg");
+    background-size: cover;
+    background-position: 50%;
+
+}
+.card{
+    height: 500px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    background-color: rgb(42, 41, 41);
+    flex-direction: column;
+    opacity: 0.7;
+    color: white;
+    font-family: sans-serif;
+}
+.card h2{
+    font-size: 30px;
+    
+}
+form label{
+    font-size: 18px;
+}
+
+form input{
+    height: 30px;
+    width: auto;
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid red;
+    outline: transparent;
+}
+form button{
+    background-color: rgb(240, 81, 18);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 35px;
+    width: 100px;
+    opacity: 1;
+
+}
+#link{
+    color: rgb(226, 45, 45);
+    font-size: 18px;
+
+}
+
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png");
+    background-size: cover;
+    background-position: 50%;
+}
+.home button{
+    background-color: rgb(240, 81, 18);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 35px;
+    width: 100px;
+}
